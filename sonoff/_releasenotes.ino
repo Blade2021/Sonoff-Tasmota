@@ -12,6 +12,9 @@
  * Change user_config_override usage by providing user_config_override_sample.h (#2228)
  * Change MQTT response topic for Energy changes from ENERGY to SENSOR (#2229, #2251)
  * Change default Reset configuration time from 4 seconds to 40 seconds on Button hold (#2268)
+ * Change ESP8266 Analog JSON message from {"Analog0:123"} to {"ANALOG":{"A0:123"}} to accomodate rules (#2560)
+ * Change Counter JSON message from {"Counter1":0,"Counter3":0} to {"COUNTER":{"C1":0,"C3":0}} to accomodate rules
+ * Change ADS1115 JSON message from {"ADS1115":{"Analog0":123,"Analog1":123}} to {"ADS1115":{"A0":123,"A1":123}}
  * Fix intermittent exception when dns lookup is used while sleep is enabled
  * Fix 5.4.0 regression turning off single press after button hold during 4x hold time
  * Fix possible wifi connection problem by erasing sdk configuration parameters
