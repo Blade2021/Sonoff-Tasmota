@@ -1,4 +1,4 @@
-/* 5.13.0 20180427
+/* 5.13.0 20180430
  * Change platformio option sonoff-ds18x20 to sonoff-allsensors enabling ds18x20 and all other sensors in one image
  * Change status display of Ssid and SetOption
  * Change default option SetOption15 from 0 to 1 providing better initial PWM experience
